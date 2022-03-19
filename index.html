@@ -1,0 +1,192 @@
+
+<html>
+    <head>
+    <style>
+    .all-browsers {
+      margin: 0;
+      padding: 5px;
+      background-color: rgb(56, 134, 148);
+    }
+    
+    all-browsers > h1, .browser {
+      margin: 10px;
+      padding: 5px;
+    }
+    
+    .browser {
+      background: rgb(12, 6, 100);
+    }
+    
+    .browser > h2, p {
+      margin: 4px;
+      font-size: 90%;
+    }
+    
+    footer {
+      text-align: center;
+      padding: 3px;
+      background-color: rgba(6, 115, 119, 0.13);
+      color: white;
+    }
+    </style>
+    </head>
+    <body>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+          -webkit-animation: colorchange 20s infinite;
+          animation: colorchange 10s infinite;
+        }
+        @-webkit-keyframes colorchange {
+          0% {
+            background: #5dc8e985;
+          }
+          25% {
+            background: #e6ebef;
+          }
+          50% {
+            background: #1c87c9;
+          }
+          75% {
+            background: #095484;
+          }
+          100% {
+            background: #d0e2bc;
+          }
+        }
+        @keyframes colorchange {
+          0% {
+            background: #8ebf42;
+          }
+          25% {
+            background: #e6ebef;
+          }
+          50% {
+            background: #1c87c9;
+          }
+          75% {
+            background: #095484;
+          }
+          100% {
+            background: #d0e2bc;
+          }
+        }
+        h2 {
+
+            padding: 60px;
+            text-align: center;
+            background: #0b3e6e;
+            color: white;
+            font-size: 30px;
+        }
+
+        h3 {
+            text-align:center;
+            font-size: 20px;
+            font-family: Georgia, serif;;
+            font-weight: 100;
+
+        }
+
+      </style>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prixit Azure Class</title>
+    
+
+    <div class="custom-select" style="width:200px;">
+        <select>
+          <option value="0">Subject:</option>
+          <option href="https://azure.microsoft.com/">Azure</a></option> 
+          <option value="2">Amazone Web service(AWS)</option>
+          <option value="3">Cyber security</option>
+          <option value="4">HTML and Programing</option>
+          <option value="5">Networking</option>
+          <option value="6">Kubernetes</option>
+          <option value="7">Agil and scrum master</option>
+        
+        </select>
+      </div>
+
+</head>
+<body>
+    <h2>Hello Brother are you enjoing the class</h2>
+    <h3>Kingsley</h3>
+    <table cellpadding="10" cellspacing="2" align="center">
+        <th class="row1">Prixit Lecture</th>
+        <tr>
+            <td class="col1">Todays Class</td>
+            <td class="col2"><input type="text" name="todays Topic" id="PName" placeholder="Todays Topic"></td>
+        </tr>
+        <th class="row1">Assigned to</th>
+        <tr>
+            <td class="col1">Assigned to</td>
+            <td class="col2">
+                <select name="person" id="Homework">
+                    <option value="Lampard">Lampard</option>
+                    <option value="Kehinde">Kehinde</option>
+                    <option value="Wale">Wale</option>
+                    <option value="kingsley">Kingsley</option>
+                    <option value="Desmond">Desmond</option>>
+                </select>
+            </td>
+        </tr>
+
+        <th class="row1">Start Date</th>
+        <tr>
+            <td class="col1">Start Date</td>
+            <td class="col2"><input type="date" name="Start Date" id="SDate" class="startDate"></td>
+        </tr>
+        <th class="row1">End Date</th>
+        <tr>
+            <td class="col1">End Date</td>
+            <td class="col2"><input type="date" name="End date" id="EDate" class="endDate" required ></td>
+        </tr>
+
+        <th class="row1">Priority</th>
+        <tr>
+            <td class="col1">Priority</td>
+            <td class="col2">
+                <input type="radio" name="priority" id="high" value="High"> High
+                <input type="radio" name="priority" id="average" value="Average"> Average
+                <input type="radio" name="priority" id="low" value="Low"> Low
+            </td>
+        </tr>
+        <th class="row1">Description</th>
+        <tr>
+            <td class="col1">Description</td>
+            <td class="col2"><textarea name="description" id="description" cols="35" rows="4"></textarea></td>
+        </tr>
+        <tr colspan="2" align="center">
+            <td>
+                <button type="submit" class="submit1"  onclick="submitProjectDetails()">Submit</button>
+            </td>
+            <td>
+                <button type="reset" class="reset1" onclick="resetProjectDetails()">Clear</button>
+            </td>
+        </tr>
+        <tr colspan="1" align="center">
+            <td>
+                <button type="reset" class="reset2" onclick="resetProjectDetails()">Clear</button>
+            </td>
+        </tr>
+    </table>
+    
+
+    <footer>
+        <p>Author: Kingsley Dohnwana<br>
+        <a href="mailto:kingsleydoh@gmail.com">kingsleydoh@gmail.com</a><br>
+        <a href="phone:701-541-9073">701-541-9073</a></p>
+      </footer>
+</body>
+
+</html>
